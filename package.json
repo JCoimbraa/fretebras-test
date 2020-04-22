@@ -3,12 +3,29 @@
   "version": "1.0.0",
   "description": "Pacote com testes para o Frete Bras",
   "main": "index.js",
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "mocha": "5.2.0",
+    "mochawesome": "^4.1.0",
+    "mochawesome-merge": "^4.0.3",
+    "mochawesome-report-generator": "^5.1.0",
+    "mochawesome-screenshots": "^1.6.0"
+  },
   "scripts": {
-    "test": "cypress run"
+    "test": "npx cypress run -b chrome --reporter mochawesome",
+    "test-headless": "npx cypress run --headless -b chrome --reporter mochawesome",
+    "clean-reports": "rm -rf cypress/reports",
+    "clean-screenshots": "rm -rf cypress/screenshots",
+    "clean-videos": "rm -rf cypress/videos",
+    "clean-all": "npm run clean-reports && npm run clean-screenshots && npm run clean-videos"
   },
   "keywords": [
     "cypress"
   ],
   "author": "Jandersson Coimbra",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^9.0.0",
+    "save": "^2.4.0"
+  }
 }
