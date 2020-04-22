@@ -8,7 +8,7 @@ Esse projeto tem o objetivo de automatizar chamadas de Front de forma a facilita
 - Ter o node e o cypress instalado na máquina
 - Link de instalação (https://docs.cypress.io/guides/getting-started/installing-cypress.html#Direct-download) 
 
-## How to use
+## Como executar
 
 - Abra o terminal service
 - Acesse o diretório /fretebras-test e execute os testes de front com o comando abaixo:
