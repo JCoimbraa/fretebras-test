@@ -1,0 +1,14 @@
+{
+  "name": "fretebras-test",
+  "version": "1.0.0",
+  "description": "Pacote com testes para o Frete Bras",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Jandersson Coimbra",
+  "license": "ISC"
+}
