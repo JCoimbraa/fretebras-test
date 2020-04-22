@@ -11,7 +11,7 @@ Esse projeto tem o objetivo de automatizar chamadas de Front de forma a facilita
 ## Como executar
 
 - Abra o terminal service
-- Acesse o diretório /fretebras-test e execute os testes de front com o comando abaixo:
+- Acesse o diretório /fretebras-test e execute os testes de front com um dos comandos abaixo:
    
-   * Digite npx cypress open no terminal
-   * Ao abrir a janela para execução clique na opção "Run all specs"
+   * Digite "npm run test" para execução no chrome
+   * Digite "npm run test-headless" para execução no headless
