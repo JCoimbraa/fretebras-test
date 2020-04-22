@@ -13,5 +13,5 @@ Esse projeto tem o objetivo de automatizar chamadas de Front de forma a facilita
 - Abra o terminal service
 - Acesse o diretório /fretebras-test e execute os testes de front com o comando abaixo:
    
-   Digite npx cypress open no terminal
-   Ao abrir a janela para execução clique na opção "Run all specs"
+   * Digite npx cypress open no terminal
+   * Ao abrir a janela para execução clique na opção "Run all specs"
