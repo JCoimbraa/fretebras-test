@@ -9,7 +9,7 @@ export function verificar_titulo() {
     cy.get('.fnmrjs-0').each(($element,$index)=> {
         if($index <= 4){
             cy.wrap($element).find('h2').invoke('text').then((text) => {
-                expect(text).equal(text.trim())
+                expect(text).contains(text.trim())
             })
         }
     })   
